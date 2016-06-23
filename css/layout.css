@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin,cyrillic);
+body {
+	font-family: 'Didact Gothic', sans-serif;
+	}
+#wrap {
+	padding-right: 0;
+	padding-left: 0;
+	}
+#carouselCalc .carousel-indicators {
+		color:#fff;
+		font-size:3.8em;
+		bottom: inherit;
+}
+#carouselCalc .item {
+	}
+#carouselCalc .carousel-caption {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 10;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+@media screen and (min-width: 768px) {
+	#carouselCalc .carousel-control .glyphicon-chevron-left,
+	#carouselCalc .carousel-control .glyphicon-chevron-right,
+	#carouselCalc .carousel-control .icon-next,
+	#carouselCalc .carousel-control .icon-prev {
+		font-size: 3em;
+    }
+	}
+	
+#carouselCalc .lead {
+	font-size:2.5em;
+	text-shadow:1px 1px 6px rgba(0, 0, 0, 1)
+	}
+#carouselCalc .well {
+	background-color: rgba(143,143,143,0.2)
+	}
+#carouselCalc .checkbox label,
+#carouselCalc .radio label {
+	font-size:1.3em;
+	}
+#carouselCalc input[type=checkbox],
+#carouselCalc input[type=radio] {
+}
+#carouselCalc button.btn-success i {
+	margin-left:10px;
+	}
+#carouselCalc button.btn-default i {
+	margin-right:10px;
+	}
+#carouselCalc .btn-group-vertical .btn i {
+	display:none;
+	}
+#carouselCalc .btn-group-vertical .btn.active:not(.disabled) i {
+	display:inline-block;
+	}
+
+
+/* Parallax */
+.parallax{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+		 -moz-background-size: cover;
+					background-size: cover;
+}
+	

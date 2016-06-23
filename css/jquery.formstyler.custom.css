@@ -1,0 +1,19 @@
+.jq-checkbox {
+	/*ADD ASYRTMACH*/
+	-webkit-box-sizing: content-box;
+		 -moz-box-sizing: content-box;
+					box-sizing: content-box;
+}
+.jq-checkbox.checked .jq-checkbox__div {
+	background: #98D000;
+}
+
+.jq-radio {
+	/*ADD ASYRTMACH*/
+	-webkit-box-sizing: content-box;
+		 -moz-box-sizing: content-box;
+					box-sizing: content-box;
+}
+.jq-radio.checked .jq-radio__div {
+	background: #98D000;
+}
